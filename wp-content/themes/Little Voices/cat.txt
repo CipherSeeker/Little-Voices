@@ -1,0 +1,41 @@
+   <!-- <section class="categories">
+        <div class="container categories-vector">
+            <div class="categories-header">
+                <h2 class="categories-header-title">Topics</h2>
+                <div>
+                    <button type="button" class="categories-header-button prev">
+                        &lt;
+                    </button>
+                    <button type="button" class="categories-header-button next">
+                        &gt;
+                    </button>
+                </div>
+            </div>
+
+            <?php
+$categories = get_categories();
+
+if ($categories) {
+    echo '<div class="owl-carousel your-slider categories-list">';
+    foreach ($categories as $category) {
+        echo '<div class="categories-item">';
+        
+        // Вывод изображения категории
+        if (function_exists('z_taxonomy_image') && z_taxonomy_image_url($category->term_id)) {
+            echo ' <div class="categories-item-svg"><img src="' . esc_url(z_taxonomy_image_url($category->term_id)) . '" alt="' .$category->name .'"/></div>';
+        }
+        
+        echo '<h3 class="categories-item-title">' . $category->name . '</h3>' .
+             '<a href="' . get_category_link($category->term_id) . '"><button type="button" class="categories-item-btn">' .
+             'View More' .
+             '</button></a>' .
+             '</div>';
+    }
+    echo '</div>';
+} else {
+    echo 'Категории не найдены.';
+}
+?>
+
+        </div>
+    </section> -->
