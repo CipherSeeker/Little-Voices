@@ -2,7 +2,7 @@
 
 Welcome to the repository for "littlevoices.site" - a dynamic information website and blog, showcasing advanced Full Stack Development skills.
 
-![Website Screenshot](screenshot.png)
+![Website Screenshot](https://github.com/CipherSeeker/Little-Voices/blob/main/Home.avif)
 
 ## Project Overview
 
