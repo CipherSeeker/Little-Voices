@@ -12,7 +12,7 @@ Welcome to the repository for "littlevoices.site" - a dynamic information websit
 
 - **Front-End:**
   - HTML
-  - CSS (including Tailwind CSS)
+  - CSS
   - JavaScript
 
 - **Back-End:**
