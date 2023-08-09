@@ -31,7 +31,7 @@ Welcome to the repository for "littlevoices.site" - a dynamic information websit
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/CipherSeeker/littlevoices.git`
+1. Clone the repository: `git clone https://github.com/yourusername/littlevoices.git`
 2. Set up a local WordPress development environment.
 3. Import the theme into your WordPress installation.
 4. Install and configure necessary plugins (MailPoet, WPForms, etc.).
